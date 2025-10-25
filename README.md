@@ -28,19 +28,18 @@ A professional-grade typing speed test application written in **C** using the **
 ## 🛠️ Installing raylib
 
 **On Ubuntu/Debian:**
-sudo apt install libraylib-dev
+```sudo apt install libraylib-dev```
 
-text
+
 
 **On Fedora:**
-sudo dnf install raylib-devel
+```sudo dnf install raylib-devel```
 
-text
 
 **On macOS (Homebrew):**
-brew install raylib
+```brew install raylib```
 
-text
+
 
 **On Windows:**  
 Use vcpkg or download binaries from the [raylib website](https://www.raylib.com/).
@@ -50,37 +49,29 @@ Use vcpkg or download binaries from the [raylib website](https://www.raylib.com/
 ## 🏗️ Build and Run
 
 **Clone the repository:**
-git clone https://github.com/yourusername/TypingSpeedTest.git
-cd TypingSpeedTest
+```git clone https://github.com/yourusername/TypingSpeedTest.git](https://github.com/Shubhk7/TypingSpeedTest-program-Crossplatform-GUI-```
+```cd TypingSpeedTest```
 
-text
 
 **Create and enter the build directory:**
-mkdir build && cd build
+```mkdir build && cd build```
 
-text
 
 **Configure the project with CMake:**
-cmake ..
-
-text
+```cmake ..```
 
 **Build the executable:**
-cmake --build .
-
-text
+```cmake --build .```
 
 **Run the program:**
 
 _On Linux/macOS:_
-./TypingSpeedTest
+```./TypingSpeedTest```
 
-text
 
 _On Windows:_
-TypingSpeedTest.exe
+```TypingSpeedTest.exe```
 
-text
 
 ---
 
@@ -104,3 +95,4 @@ text
 - **Input:** Keyboard and mouse
 
 ---
+
