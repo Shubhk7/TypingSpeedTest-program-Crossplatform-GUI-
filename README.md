@@ -1,79 +1,90 @@
-#Typing Speed Test
-
-A simple typing speed test application written in C using the raylib graphics library. This program allows you to practice typing with code snippets, standard sentences, or sprint-style word groups and measures your typing speed and accuracy.
+Typing Speed Test
+A professional-grade typing speed test application developed in C using the raylib graphics library, designed to help users improve typing speed and accuracy across multiple text modes.
 
 Features
-Three typing modes: Code, Standard, and Sprint
+Three Modes:
 
-Real-time typing input capture and feedback
+Code snippets
 
-Words per minute (WPM) calculation
+Standard sentences
 
-Accuracy percentage calculation
+Sprint word groups
 
-Detailed test results with feedback
+Real-Time Input Capture: Monitor typing progress live
 
-Friendly graphical interface via raylib
+Performance Metrics: Words Per Minute (WPM) and accuracy percentage
 
-Getting Started
+Detailed Results: Speed, accuracy, words typed, and elapsed time
+
+Simple and Interactive UI: Powered by raylib for smooth cross-platform graphics
+
 Prerequisites
-C Compiler: GCC, Clang, MSVC (C11 compatible)
+Ensure the following tools and libraries are installed on your system:
 
-raylib library: Version compatible with your system
+C compiler: GCC, Clang, or MSVC with C11 support
 
-CMake: Version 3.10 or higher
+raylib graphics library: For rendering
+
+CMake: Version 3.10 or above for build configuration
 
 Installing raylib
-On Debian/Ubuntu:
+Install raylib by running the appropriate command for your platform:
 
 bash
+# Debian/Ubuntu
 sudo apt install libraylib-dev
-On Fedora:
-
 bash
+# Fedora
 sudo dnf install raylib-devel
-On macOS (Homebrew):
-
 bash
+# macOS (Homebrew)
 brew install raylib
-On Windows:
-Use vcpkg or download from raylib website
+For Windows, use vcpkg or download prebuilt binaries from the raylib website.
 
-Build and Run
-Clone the repository:
+Build and Run Instructions
+To build and execute the project, use the following commands in your terminal or command prompt:
 
 bash
+# Clone the GitHub repository
 git clone https://github.com/yourusername/TypingSpeedTest.git
 cd TypingSpeedTest
-Build using CMake:
 
-bash
+# Create and enter the build directory
 mkdir build && cd build
+
+# Configure the project with CMake
 cmake ..
+
+# Build the executable
 cmake --build .
 Run the program:
 
 bash
-./TypingSpeedTest        # On Linux and macOS
-TypingSpeedTest.exe      # On Windows
-Usage
-Select one of the three modes from the menu
+# On Linux/macOS
+./TypingSpeedTest
+
+# On Windows
+TypingSpeedTest.exe
+Usage Guide
+Launch the application
+
+Select a typing mode (Code, Standard, or Sprint) by clicking
 
 Type the displayed text as accurately and quickly as possible
 
-Press Enter to finish or the test ends when the full text is typed
+Finish either by pressing Enter or typing the full text
 
-View your results and feedback on speed and accuracy
+Review your results including speed, accuracy, total words, and time taken
 
-Retry or go back to mode selection as desired
+Reset to retry or go back to mode selection as desired
 
 Minimum System Requirements
-OS: Windows 7/macOS 10.12/Linux Kernel 3.x or later
+Operating System: Windows 7 or later, macOS 10.12 or later, Linux kernel 3.x or later
 
-CPU: x86_64 or equivalent
+Processor: x86_64 or equivalent
 
-RAM: 1 GB minimum
+Memory: At least 1 GB RAM
 
-GPU: OpenGL 3.3 compatible or software renderer
+Graphics: OpenGL 3.3 compatible GPU or equivalent software renderer
 
-Input: Keyboard and mouse
+Input Devices: Keyboard and mouse
