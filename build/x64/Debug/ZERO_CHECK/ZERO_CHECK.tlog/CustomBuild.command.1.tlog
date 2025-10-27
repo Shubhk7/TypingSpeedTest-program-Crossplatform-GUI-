@@ -1,0 +1,10 @@
+^C:\USERS\SHUBH KASHYAP\ONEDRIVE\DESKTOP\GIT\TYPINGSPEEDTEST-PROGRAM-CROSSPLATFORM-GUI-\BUILD\CMAKEFILES\11E67C3942C3099A98AB3A0C342749FA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/SHUBH KASHYAP/OneDrive/Desktop/Git/TypingSpeedTest-program-Crossplatform-GUI-" "-BC:/Users/SHUBH KASHYAP/OneDrive/Desktop/Git/TypingSpeedTest-program-Crossplatform-GUI-/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/SHUBH KASHYAP/OneDrive/Desktop/Git/TypingSpeedTest-program-Crossplatform-GUI-/build/MyTypingtest.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
