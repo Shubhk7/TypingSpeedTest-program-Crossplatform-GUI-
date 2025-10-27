@@ -49,7 +49,8 @@ Use vcpkg or download binaries from the [raylib website](https://www.raylib.com/
 ## 🏗️ Build and Run
 
 **Clone the repository:**
-```git clone https://github.com/yourusername/TypingSpeedTest.git](https://github.com/Shubhk7/TypingSpeedTest-program-Crossplatform-GUI-```
+```git clone https://github.com/Shubhk7/TypingSpeedTest-program-Crossplatform-GUI-```
+
 ```cd TypingSpeedTest```
 
 
@@ -95,4 +96,5 @@ _On Windows:_
 - **Input:** Keyboard and mouse
 
 ---
+
 
