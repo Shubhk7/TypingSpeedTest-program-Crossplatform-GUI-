@@ -1,0 +1,7 @@
+{
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+    },
+    "cmake.useCMakePresets": "never",
+    "cmake.sourceDirectory": "C:/Users/SHUBH KASHYAP/OneDrive/Desktop/Git/TypingSpeedTest-program-Crossplatform-GUI-" // <-- ADD THIS LINE
+}

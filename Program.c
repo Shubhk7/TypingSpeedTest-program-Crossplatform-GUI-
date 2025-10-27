@@ -117,7 +117,7 @@ void finishTest()
 
 int main(void)
 {
-    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Typing Speed Test");
+    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Typing Speed Test\nby Fireteam Forerunner");
     SetTargetFPS(60);
 
     srand(time(NULL));
@@ -146,7 +146,7 @@ int main(void)
                     inputlen++;
                     userInput[inputlen] = '\0';
 
-                    if (inputlen>= strlen(currentText))
+                    if (inputlen >= strlen(currentText))
                     {
                         finishTest();
                     }
@@ -176,8 +176,9 @@ int main(void)
         if (currentState == 0)
         {
             // MODE SELECTION
-            DrawText("TYPING SPEED TEST", 280, 100, 28, textColor);
-            DrawText("Select Test Mode:", 340, 160, 20, textColor);
+            DrawText("TYPING SPEED TEST", 280, 85, 28, textColor);
+            DrawText("By Fireteam Forerunner", 298, 122, 21, textColor);
+            DrawText("Select Test Mode:", 340, 165, 20, textColor);
 
             // Code Mode button
             Rectangle codeBtn = {100, 220, 200, 100};
@@ -185,7 +186,7 @@ int main(void)
             DrawRectangleRec(codeBtn, codeHover ? buttonHover : buttonColor);
             DrawRectangleLinesEx(codeBtn, 1, borderColor);
             DrawText("Code Mode", 135, 250, 20, textColor);
-            DrawText("Programming", 130, 280, 16, textColor);
+            DrawText("Programming", 137, 280, 16, textColor);
 
             if (codeHover && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
             {
